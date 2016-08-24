@@ -1,0 +1,8 @@
+while read path
+do
+	dir=${path%/*}
+	if [ ! -e .${dir} ]; then
+		mkdir -p .$dir
+	fi
+	cp -upv $path .$path
+done <list

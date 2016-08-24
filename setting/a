@@ -1,0 +1,4 @@
+if [ ! -e $1 ]; then
+	echo "file not found $1"
+fi
+ls $1 >> list
