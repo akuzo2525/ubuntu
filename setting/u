@@ -2,7 +2,7 @@ while read path
 do
 	dir=${path%/*}
 	if [ ! -e .${dir} ]; then
-		mkdir -p .$dir
+		sudo mkdir -p .$dir
 	fi
-	cp -upv $path .$path
+	sudo cp -upv $path .$path
 done <list
