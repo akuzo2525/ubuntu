@@ -1,0 +1,5 @@
+# php
+
+apt-get -y install php5-cli
+apt-get -y install php5-mysql
+
