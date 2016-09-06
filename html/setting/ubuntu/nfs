@@ -1,4 +1,12 @@
 # nfs
 
+# client 
+
 apt-get -y install nfs-common
 
+vi /etc/fstab
+192.168.0.17:/share/www/html/md0  /mnt/md0  nfs  rsize=8192,wsize=8192,hard,intr 0 0
+192.168.0.17:/share/md1           /mnt/md1  nfs  rsize=8192,wsize=8192,hard,intr 0 0
+
+mount -t nfs 192.168.0.17:/share/www/html/md0 /mnt/md0
+mount -t nfs 192.168.0.17:/share/md1 /mnt/md1
