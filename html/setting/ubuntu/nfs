@@ -1,0 +1,4 @@
+# nfs
+
+apt-get -y install nfs-common
+
