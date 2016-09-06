@@ -4,3 +4,4 @@
 /etc/profile
 /etc/bash.bashrc
 /etc/apache2/conf-enabled/security.conf
+/etc/fstab
