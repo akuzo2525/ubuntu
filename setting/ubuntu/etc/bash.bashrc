@@ -66,3 +66,7 @@ if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found/command-no
 		fi
 	}
 fi
+alias me='echo ubuntu;lsb_release -a'
+alias ww='cd /share/www/html'
+alias ni='cd /share/www/html/nico'
+alias r='make run'
