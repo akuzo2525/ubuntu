@@ -28,3 +28,4 @@ if [ -d /etc/profile.d ]; then
   done
   unset i
 fi
+export PATH=/opt/flex/bin:$PATH
