@@ -1,10 +1,7 @@
 while read path
 do
 	dir=${path%/*}
-	echo "-----------------------"
-	echo $path;
 	if [ -e ${path} ]; then
-		echo $path;
 		if [ ! -e .${dir} ]; then
 			sudo mkdir -p .$dir
 		fi
