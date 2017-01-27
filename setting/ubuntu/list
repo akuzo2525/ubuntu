@@ -6,3 +6,4 @@
 /etc/apache2/conf-enabled/security.conf
 /etc/fstab
 /etc/samba/smb.conf
+/etc/vim/vimrc.tiny
