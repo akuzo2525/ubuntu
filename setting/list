@@ -1,3 +1,4 @@
 /etc/sysconfig/iptables
 /etc/httpd/conf/httpd.conf
 /etc/ssh/sshd_config
+/etc/bashrc
