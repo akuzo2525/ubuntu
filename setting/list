@@ -3,3 +3,4 @@
 /etc/ssh/sshd_config
 /etc/bashrc
 /etc/my.cnf
+/etc/vsftpd/vsftpd.conf
