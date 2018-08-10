@@ -7,3 +7,4 @@
 /etc/fstab
 /etc/samba/smb.conf
 /etc/vim/vimrc.tiny
+/etc/mysql/mysql.conf.d/mysqld.cnf
