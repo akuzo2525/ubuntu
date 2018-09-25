@@ -11,3 +11,4 @@ set runtimepath=~/.vim,/var/lib/vim/addons,/usr/share/vim/vimfiles,/usr/share/vi
 set compatible
 
 " vim: set ft=vim:
+ set ts=4
