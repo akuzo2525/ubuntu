@@ -90,7 +90,7 @@ if ! shopt -q login_shell ; then # We're not a login shell
     unset -f pathmunge
 fi
 # vim:ts=4:sw=4
-alias me='echo centos7-pi;cat /etc/centos-release;uname -a'
+alias me='cat /etc/hostname;cat /etc/centos-release;uname -a'
 alias r='make run'
 alias ww='cd /share/www/html'
 alias ni='cd /share/www/html/nico'
