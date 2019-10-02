@@ -1,8 +1,10 @@
 while read path
 do
 	dir=${path%/*}
-	if [ ! -e .${dir} ]; then
-		mkdir -p .$dir
+	if [ -e ${path} ]; then
+		if [ ! -e .${dir} ]; then
+			sudo mkdir -p .$dir
+		fi
+		sudo cp -upv $path .$path
 	fi
-	cp -upv $path .$path
 done <list
