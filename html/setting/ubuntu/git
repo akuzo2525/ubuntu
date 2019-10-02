@@ -1,0 +1,16 @@
+# git
+
+apt-get -y install git
+
+ssh-keygen -t rsa -f id_rsa_hoge
+
+vi ~/.ssh/config
+Host github hoge.github.com
+	HostName github.com
+	User git
+	Port 22
+	IdentityFile ~/.ssh/id_rsa_hoge
+	TCPKeepAlive yes
+	IdentitiesOnly yes
+chmod 600 ~/.ssh/config
+

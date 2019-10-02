@@ -1,0 +1,10 @@
+# mysql
+
+apt-get -y install mysql-server
+apt-get -y install mysql-client
+(php)
+apt-get -y install php-mysql
+
+/etc/init.d/mysql start
+
+GRANT ALL PRIVILEGES ON *.* TO 'hoge'@'%' IDENTIFIED BY '****' WITH GRANT OPTION;

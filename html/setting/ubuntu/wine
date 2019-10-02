@@ -1,0 +1,3 @@
+# wine
+
+apt-get -y install wine

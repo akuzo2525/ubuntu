@@ -1,0 +1,9 @@
+# flex
+
+mkdir /opt/flex3.6a
+unzip flex_sdk_3.6a.zip -d /opt/flex3.6a
+chmod a+rx -R /opt/flex3.6a
+ln -sn /opt/flex3.6a /opt/flex
+
+vi /etc/profile
+export PATH=/opt/flex/bin:$PATH
