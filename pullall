@@ -1,0 +1,6 @@
+git branch --track gh-pages origin/gh-pages
+git branch --track ubuntu origin/ubuntu
+git branch --track centos origin/centos
+git fetch --all
+git pull --all
+
