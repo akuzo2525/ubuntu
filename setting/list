@@ -1,3 +1,5 @@
 /etc/httpd/conf/httpd.conf
 /etc/my.cnf
 /etc/sysconfig/selinux
+/var/lib/pgsql/9.5/data/postgresql.conf
+/var/lib/pgsql/9.5/data/pg_hba.conf
