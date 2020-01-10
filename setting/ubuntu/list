@@ -9,3 +9,4 @@
 /etc/vim/vimrc.tiny
 /etc/mysql/mysql.conf.d/mysqld.cnf
 /etc/vsftpd.conf
+/etc/apparmor.d/usr.sbin.mysqld
